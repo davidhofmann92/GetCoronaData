@@ -24,7 +24,7 @@ fillNA <- function(x){
   return(x)
 }
 
-# Remove last column
+# Fill NA's
 dat_infections <- fillNA(dat_infections)
 dat_deaths <- fillNA(dat_deaths)
 
